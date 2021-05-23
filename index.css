@@ -1,0 +1,44 @@
+:root {
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-xxl: 6rem;
+}
+
+* {
+  margin: 0;
+}
+
+input {
+  outline-offset: 2px;
+}
+
+.track {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+fieldset {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.trackItem {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+.trackItem > h3 {
+  font-size: large;
+}
+
+.trackItem > p {
+  font-size: large;
+}
